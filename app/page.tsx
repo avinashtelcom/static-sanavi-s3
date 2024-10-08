@@ -1,9 +1,20 @@
+import Grid from "@/components/Grid";
+import Hero from "@/components/Hero";
+import RecentProjects from "@/components/RecentProjects";
+import { FloatingNav } from "@/components/ui/FloatingNav";
+import { FaHome } from "react-icons/fa";
+
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-       <h1>Product Owner, Solution Architect with Full Stack Developer</h1>
-      </main>
-    </div>
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <div className="max-w-7xl w-full">
+        <FloatingNav navItems={[
+          {name: 'Home', link:'/', icon: <FaHome />}
+        ]} />
+        <Hero />
+        <Grid />
+        <RecentProjects />
+      </div>
+    </main>
   );
 }
