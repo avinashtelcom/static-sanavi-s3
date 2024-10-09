@@ -60,7 +60,7 @@ const Hero = () => {
             Hi! I&apos;m Avinash Kumar, a Product Owner, Solution Architect and Fullstack Developer based in Bangalore.
           </p>
 
-          <a href="#about">
+          <a href="#experience">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
