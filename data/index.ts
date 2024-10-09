@@ -10,10 +10,10 @@ export const gridItems = [
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[70vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[80vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/collabration.jpg",
+    img: "/b1.svg",
     spareImg: "",
   },
   {
@@ -204,7 +204,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    handle: "https://www.linkedin.com/in/avinashtelcom/"
+    handle: "https://github.com/avinashtelcom"
   },
   // {
   //   id: 2,
@@ -213,6 +213,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    handle: "https://github.com/avinashtelcom"
+    handle: "https://www.linkedin.com/in/avinashtelcom/"
   },
 ];
